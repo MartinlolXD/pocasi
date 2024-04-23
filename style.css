@@ -1,0 +1,64 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+  }
+  
+  .navbarContent {
+    float: left;
+  }
+  
+ .navbarContent a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbarContent a:hover:not(.active) {
+    background-color: #262626;
+  }
+  
+  .active {
+    background-color: red;
+  }
+  .active:hover {
+    background-color: rgb(255, 46, 46);
+  }
+
+
+  footer {
+    background-color: #ff0000;
+  }
+
+  .container {
+    display: flexbox;
+    margin: 20px;
+    justify-content: center;
+}
+
+.containercss {
+    display: flex;
+    justify-content: center;
+}
+
+.citySelect {
+    display: flex;
+}
+
+
+.city-button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.city-button:hover {
+    background-color: #45a049;
+}

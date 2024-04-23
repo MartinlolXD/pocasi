@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Počasí TN nova</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <ul class="navbar">
+        <li class="navbarContent"><a href="#home">Home</a></li>
+        <li class="navbarContent"><a href="#news">News</a></li>
+        <li class="navbarContent"><a href="#contact">Contact</a></li>
+        <li class="navbarContent" style="float:right"><a class="active" href="#about">About</a></li>
+      </ul>
+
+
+<p style="display:flex; justify-content: center; font-size: xxx-large;">Počasí</p>
+
+
+<div class="containercss">
+    <div class="container">
+        <h2>Výběr města a zobrazení počasí</h2>
+        <div id="cityButtons"></div>
+        <br><br>
+        <div id="weatherDisplay"></div>
+        <br>
+        <button onclick="updateWeather()">Aktualizovat data o počasí</button>
+    </div>
+</div>
+
+<footer>Hodně zajímavé info</footer>
+<script src="script.js"></script>
+</body>
+</html>
